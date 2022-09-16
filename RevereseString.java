@@ -7,6 +7,8 @@ public class RevereseString {
         Scanner input = new Scanner(System.in);
         String sentence = input.nextLine();
         System.out.println(reverse(sentence));
+
+        TestReverse(sentence);
     }
 
     public static String reverse(String input){
@@ -21,5 +23,17 @@ public class RevereseString {
         }
         else return next;
     }
+
+    // public static void TestReverse(){
+
+    //     String testString = "This is a test sentence";
+
+    //     if(reverse(testString).equals("sentence test a is This")){
+    //         System.out.println("Test passed!");
+    //     }
+    //     else
+    //      System.out.println("Test failed :(");
+
+    // }
     
 }
