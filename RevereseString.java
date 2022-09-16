@@ -24,16 +24,16 @@ public class RevereseString {
         else return next;
     }
 
-    // public static void TestReverse(){
+    public static void TestReverse(){
 
-    //     String testString = "This is a test sentence";
+        String testString = "This is a test sentence";
 
-    //     if(reverse(testString).equals("sentence test a is This")){
-    //         System.out.println("Test passed!");
-    //     }
-    //     else
-    //      System.out.println("Test failed :(");
+        if(reverse(testString).equals("sentence test a is This")){
+            System.out.println("Test passed!");
+        }
+        else
+         System.out.println("Test failed :(");
 
-    // }
+    }
     
 }

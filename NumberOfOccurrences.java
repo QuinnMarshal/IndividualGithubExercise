@@ -9,6 +9,7 @@ public class NumberOfOccurrences{
         Scanner input = new Scanner(System.in);
         String s = input.nextLine();
         System.out.println("The string has " + count(s) + " unique letters!");
+        TestOccurrences();
     }
 
     public static int count(String s){
