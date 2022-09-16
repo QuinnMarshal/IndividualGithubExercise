@@ -8,7 +8,7 @@ public class RevereseString {
         String sentence = input.nextLine();
         System.out.println(reverse(sentence));
 
-        TestReverse(sentence);
+        TestReverse();
     }
 
     public static String reverse(String input){
