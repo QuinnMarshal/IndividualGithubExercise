@@ -27,6 +27,17 @@ public class NumberOfOccurrences{
         }else 
             return chars.size();
     }
+
+    public static String TestOccurrences(){
+
+        String s = "This is a test string";
+
+        if(count(s) == 9){
+            return "Test passed!";
+        }
+        else
+            return "Test failed";
+    }
 }
 
 
